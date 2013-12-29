@@ -10,10 +10,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 		ImageView iv = new ImageView(this);
-
 		iv.setBackgroundResource(R.color.transparent);
 		iv.setImageResource(R.drawable.ic_launcher);
-
 		final int matchParent = ViewGroup.LayoutParams.MATCH_PARENT;
 		setContentView(iv, new ViewGroup.LayoutParams(matchParent, matchParent));
     }
